@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "CodeStackOrnament2023Footprints")(type "KiCad")(uri "${KIPRJMOD}/lib/CodeStackOrnament2023Footprints.pretty")(options "")(descr ""))
+)
