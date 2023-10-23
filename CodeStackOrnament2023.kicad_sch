@@ -534,16 +534,25 @@
       )
     )
     (symbol "Switch:SW_SPST" (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "SW" (at 0 3.175 0)
-        (effects (font (size 1.27 1.27)))
+      (property "Reference" "SW1" (at 1.2121 -1.143 90)
+        (effects (font (size 1.27 1.27)) (justify right))
       )
-      (property "Value" "SW_SPST" (at 0 -2.54 0)
-        (effects (font (size 1.27 1.27)))
+      (property "Value" "SW_SPST" (at -1.2121 -1.143 90)
+        (effects (font (size 1.27 1.27)) (justify right))
       )
-      (property "Footprint" "" (at 0 0 0)
+      (property "Footprint" "CodeStackOrnament2023Footprints:JS202011SCQN_SWITCH" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "Datasheet" "~" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Sim.Device" "SW" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Sim.Type" "V" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Sim.Pins" "1=ctrl- 2=ctrl+" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "ki_keywords" "switch lever" (at 0 0 0)
@@ -573,11 +582,11 @@
       (symbol "SW_SPST_1_1"
         (pin passive line (at -5.08 0 0) (length 2.54)
           (name "A" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
         )
         (pin passive line (at 5.08 0 180) (length 2.54)
           (name "B" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
+          (number "3" (effects (font (size 1.27 1.27))))
         )
       )
     )
@@ -748,9 +757,6 @@
   (junction (at 172.72 57.15) (diameter 0) (color 0 0 0 0)
     (uuid b14796b9-5ed0-4063-aebf-76190828885b)
   )
-  (junction (at 91.44 24.13) (diameter 0) (color 0 0 0 0)
-    (uuid c25d0d01-61a9-458d-abd5-b7172c9be8e8)
-  )
   (junction (at 172.72 54.61) (diameter 0) (color 0 0 0 0)
     (uuid d3ffde27-7372-48df-a005-8e2d5045e3f3)
   )
@@ -788,7 +794,7 @@
     (stroke (width 0) (type default))
     (uuid 145c86b1-3ed4-4951-a406-fd5014fe19f4)
   )
-  (wire (pts (xy 78.74 24.13) (xy 91.44 24.13))
+  (wire (pts (xy 78.74 24.13) (xy 95.25 24.13))
     (stroke (width 0) (type default))
     (uuid 1652d642-67ab-4b78-ad23-787c61babcaf)
   )
@@ -971,10 +977,6 @@
   (wire (pts (xy 153.67 80.01) (xy 165.1 80.01))
     (stroke (width 0) (type default))
     (uuid d3277252-33fe-496b-86f5-4c9e9b64d7d0)
-  )
-  (wire (pts (xy 91.44 24.13) (xy 95.25 24.13))
-    (stroke (width 0) (type default))
-    (uuid e2cd4f9f-d204-4300-a3d2-e646aff7ecd1)
   )
   (wire (pts (xy 153.67 59.69) (xy 165.1 59.69))
     (stroke (width 0) (type default))
@@ -2233,7 +2235,7 @@
   (symbol (lib_id "power:+3V0") (at 229.87 87.63 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 01a56dba-71fe-45f4-9a90-4a6a21f3439d)
-    (property "Reference" "#PWR022" (at 229.87 91.44 0)
+    (property "Reference" "#PWR021" (at 229.87 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V0" (at 229.87 83.4969 0)
@@ -2249,7 +2251,7 @@
     (instances
       (project "CodeStackOrnament2023"
         (path "/42e733f2-c99f-4cc2-86e2-d5b5a803e3a0"
-          (reference "#PWR022") (unit 1)
+          (reference "#PWR021") (unit 1)
         )
       )
     )
@@ -2258,7 +2260,7 @@
   (symbol (lib_id "power:+3V0") (at 154.305 91.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 05d179c9-41fb-41b2-a986-18564111af18)
-    (property "Reference" "#PWR013" (at 154.305 95.25 0)
+    (property "Reference" "#PWR012" (at 154.305 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V0" (at 154.305 87.3069 0)
@@ -2274,7 +2276,7 @@
     (instances
       (project "CodeStackOrnament2023"
         (path "/42e733f2-c99f-4cc2-86e2-d5b5a803e3a0"
-          (reference "#PWR013") (unit 1)
+          (reference "#PWR012") (unit 1)
         )
       )
     )
@@ -2286,7 +2288,7 @@
     (property "Reference" "R1" (at 71.628 31.8079 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "R" (at 71.628 34.2321 0)
+    (property "Value" "8k" (at 71.628 34.2321 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 68.072 33.02 90)
@@ -2330,8 +2332,8 @@
     (property "Sim.Pins" "1=ctrl- 2=ctrl+" (at 229.87 97.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 20657593-1ad4-42c1-baf4-de9c52250ca4))
     (pin "2" (uuid c7951ac3-f408-4ac7-a029-6184e82677e1))
+    (pin "3" (uuid 0686fd3e-7007-4cb2-8b1f-6c5a0993b16f))
     (instances
       (project "CodeStackOrnament2023"
         (path "/42e733f2-c99f-4cc2-86e2-d5b5a803e3a0"
@@ -2426,7 +2428,7 @@
   (symbol (lib_id "power:GND") (at 154.305 96.52 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2efb5e92-3f25-4d26-bc71-b55b98e70bda)
-    (property "Reference" "#PWR014" (at 154.305 102.87 0)
+    (property "Reference" "#PWR013" (at 154.305 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 154.305 100.6531 0)
@@ -2442,7 +2444,7 @@
     (instances
       (project "CodeStackOrnament2023"
         (path "/42e733f2-c99f-4cc2-86e2-d5b5a803e3a0"
-          (reference "#PWR014") (unit 1)
+          (reference "#PWR013") (unit 1)
         )
       )
     )
@@ -2451,7 +2453,7 @@
   (symbol (lib_id "power:GND") (at 205.74 109.22 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3265d4f6-b16f-4d7a-b2bd-90a9c68973f8)
-    (property "Reference" "#PWR018" (at 205.74 115.57 0)
+    (property "Reference" "#PWR017" (at 205.74 115.57 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 205.74 113.3531 0)
@@ -2467,7 +2469,7 @@
     (instances
       (project "CodeStackOrnament2023"
         (path "/42e733f2-c99f-4cc2-86e2-d5b5a803e3a0"
-          (reference "#PWR018") (unit 1)
+          (reference "#PWR017") (unit 1)
         )
       )
     )
@@ -2514,7 +2516,7 @@
   (symbol (lib_id "power:+3V0") (at 215.9 104.14 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3614bd98-2937-47dd-88eb-7a91ae191ea0)
-    (property "Reference" "#PWR020" (at 215.9 107.95 0)
+    (property "Reference" "#PWR019" (at 215.9 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V0" (at 215.9 100.0069 0)
@@ -2530,7 +2532,7 @@
     (instances
       (project "CodeStackOrnament2023"
         (path "/42e733f2-c99f-4cc2-86e2-d5b5a803e3a0"
-          (reference "#PWR020") (unit 1)
+          (reference "#PWR019") (unit 1)
         )
       )
     )
@@ -2615,7 +2617,7 @@
   (symbol (lib_id "power:GND") (at 128.27 59.69 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 47655a1a-d070-45fc-80bb-b2ce3b6cab9c)
-    (property "Reference" "#PWR010" (at 121.92 59.69 0)
+    (property "Reference" "#PWR09" (at 121.92 59.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 125.0951 59.69 90)
@@ -2631,7 +2633,7 @@
     (instances
       (project "CodeStackOrnament2023"
         (path "/42e733f2-c99f-4cc2-86e2-d5b5a803e3a0"
-          (reference "#PWR010") (unit 1)
+          (reference "#PWR09") (unit 1)
         )
       )
     )
@@ -2754,7 +2756,7 @@
   (symbol (lib_id "Device:C_Polarized_Small") (at 215.9 106.68 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 57a252ed-cd7e-4911-8c73-29f0c60250fb)
-    (property "Reference" "C8" (at 218.059 104.9218 0)
+    (property "Reference" "C7" (at 218.059 104.9218 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10uf" (at 218.059 107.346 0)
@@ -2777,7 +2779,7 @@
     (instances
       (project "CodeStackOrnament2023"
         (path "/42e733f2-c99f-4cc2-86e2-d5b5a803e3a0"
-          (reference "C8") (unit 1)
+          (reference "C7") (unit 1)
         )
       )
     )
@@ -2786,7 +2788,7 @@
   (symbol (lib_id "power:GND") (at 205.74 88.9 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 59116555-4d62-4c7d-9212-e9d5bd5e3289)
-    (property "Reference" "#PWR016" (at 205.74 95.25 0)
+    (property "Reference" "#PWR015" (at 205.74 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 205.74 93.0331 0)
@@ -2802,7 +2804,7 @@
     (instances
       (project "CodeStackOrnament2023"
         (path "/42e733f2-c99f-4cc2-86e2-d5b5a803e3a0"
-          (reference "#PWR016") (unit 1)
+          (reference "#PWR015") (unit 1)
         )
       )
     )
@@ -2811,7 +2813,7 @@
   (symbol (lib_id "power:+3V0") (at 205.74 104.14 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 593605fe-04e6-4c2d-8395-729c688e44d6)
-    (property "Reference" "#PWR017" (at 205.74 107.95 0)
+    (property "Reference" "#PWR016" (at 205.74 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V0" (at 205.74 100.0069 0)
@@ -2827,7 +2829,7 @@
     (instances
       (project "CodeStackOrnament2023"
         (path "/42e733f2-c99f-4cc2-86e2-d5b5a803e3a0"
-          (reference "#PWR017") (unit 1)
+          (reference "#PWR016") (unit 1)
         )
       )
     )
@@ -2883,35 +2885,10 @@
     )
   )
 
-  (symbol (lib_id "power:GND") (at 91.44 29.21 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 63fe6d85-c25b-4dc4-9e0c-51cf7954ffa7)
-    (property "Reference" "#PWR07" (at 91.44 35.56 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 91.44 33.3431 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 91.44 29.21 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 91.44 29.21 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 997cd010-8630-4760-bcfb-1098c06cd7f6))
-    (instances
-      (project "CodeStackOrnament2023"
-        (path "/42e733f2-c99f-4cc2-86e2-d5b5a803e3a0"
-          (reference "#PWR07") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Device:C_Small") (at 205.74 106.68 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 65e89892-df8e-4cbd-be92-b75f7ce15105)
-    (property "Reference" "C7" (at 208.0641 105.4742 0)
+    (property "Reference" "C6" (at 208.0641 105.4742 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1u" (at 208.0641 107.8984 0)
@@ -2934,7 +2911,7 @@
     (instances
       (project "CodeStackOrnament2023"
         (path "/42e733f2-c99f-4cc2-86e2-d5b5a803e3a0"
-          (reference "C7") (unit 1)
+          (reference "C6") (unit 1)
         )
       )
     )
@@ -2995,7 +2972,7 @@
   (symbol (lib_id "power:+3V0") (at 140.97 44.45 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 69d2b320-c3b8-4f0b-946c-dd9cc423e28a)
-    (property "Reference" "#PWR011" (at 140.97 48.26 0)
+    (property "Reference" "#PWR010" (at 140.97 48.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V0" (at 140.97 40.3169 0)
@@ -3011,7 +2988,7 @@
     (instances
       (project "CodeStackOrnament2023"
         (path "/42e733f2-c99f-4cc2-86e2-d5b5a803e3a0"
-          (reference "#PWR011") (unit 1)
+          (reference "#PWR010") (unit 1)
         )
       )
     )
@@ -3023,7 +3000,7 @@
     (property "Reference" "C1" (at 72.009 64.2818 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "${SIM.PARAMS}" (at 72.009 66.706 0)
+    (property "Value" "10uF" (at 72.009 66.706 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 69.85 66.04 0)
@@ -3090,7 +3067,7 @@
   (symbol (lib_id "power:GND") (at 176.53 64.77 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 85284ce3-eadc-457e-a3da-65afa8b263cd)
-    (property "Reference" "#PWR015" (at 182.88 64.77 0)
+    (property "Reference" "#PWR014" (at 182.88 64.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 179.705 64.77 90)
@@ -3106,7 +3083,7 @@
     (instances
       (project "CodeStackOrnament2023"
         (path "/42e733f2-c99f-4cc2-86e2-d5b5a803e3a0"
-          (reference "#PWR015") (unit 1)
+          (reference "#PWR014") (unit 1)
         )
       )
     )
@@ -3191,7 +3168,7 @@
   (symbol (lib_id "power:+3V0") (at 215.9 88.9 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8e2bca22-40e6-45c8-9375-a2716fa1ca62)
-    (property "Reference" "#PWR019" (at 215.9 85.09 0)
+    (property "Reference" "#PWR018" (at 215.9 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V0" (at 215.9 93.0331 0)
@@ -3207,7 +3184,7 @@
     (instances
       (project "CodeStackOrnament2023"
         (path "/42e733f2-c99f-4cc2-86e2-d5b5a803e3a0"
-          (reference "#PWR019") (unit 1)
+          (reference "#PWR018") (unit 1)
         )
       )
     )
@@ -3216,7 +3193,7 @@
   (symbol (lib_id "Device:C_Small") (at 154.305 93.98 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 90612eb1-d15a-4e30-a049-3b8386193d6a)
-    (property "Reference" "C6" (at 156.6291 92.7742 0)
+    (property "Reference" "C5" (at 156.6291 92.7742 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1u" (at 156.6291 95.1984 0)
@@ -3239,7 +3216,7 @@
     (instances
       (project "CodeStackOrnament2023"
         (path "/42e733f2-c99f-4cc2-86e2-d5b5a803e3a0"
-          (reference "C6") (unit 1)
+          (reference "C5") (unit 1)
         )
       )
     )
@@ -3248,7 +3225,7 @@
   (symbol (lib_id "power:GND") (at 140.97 87.63 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 91861abc-a83e-45f3-9cfa-cc7558e24093)
-    (property "Reference" "#PWR012" (at 140.97 93.98 0)
+    (property "Reference" "#PWR011" (at 140.97 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 140.97 91.7631 0)
@@ -3264,7 +3241,7 @@
     (instances
       (project "CodeStackOrnament2023"
         (path "/42e733f2-c99f-4cc2-86e2-d5b5a803e3a0"
-          (reference "#PWR012") (unit 1)
+          (reference "#PWR011") (unit 1)
         )
       )
     )
@@ -3276,7 +3253,7 @@
     (property "Reference" "R2" (at 71.628 53.3979 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "R" (at 71.628 55.8221 0)
+    (property "Value" "8k" (at 71.628 55.8221 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 68.072 54.61 90)
@@ -3299,7 +3276,7 @@
   (symbol (lib_id "power:GND") (at 93.98 62.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 94696fbd-ca28-4ddf-847e-bcb9d90e71dd)
-    (property "Reference" "#PWR08" (at 93.98 68.58 0)
+    (property "Reference" "#PWR07" (at 93.98 68.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 93.98 66.3631 0)
@@ -3315,7 +3292,7 @@
     (instances
       (project "CodeStackOrnament2023"
         (path "/42e733f2-c99f-4cc2-86e2-d5b5a803e3a0"
-          (reference "#PWR08") (unit 1)
+          (reference "#PWR07") (unit 1)
         )
       )
     )
@@ -3359,7 +3336,7 @@
   (symbol (lib_id "power:+3V0") (at 95.25 21.59 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a45640ee-0140-46be-98a6-be8191245ae2)
-    (property "Reference" "#PWR09" (at 95.25 25.4 0)
+    (property "Reference" "#PWR08" (at 95.25 25.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V0" (at 95.25 17.4569 0)
@@ -3375,7 +3352,7 @@
     (instances
       (project "CodeStackOrnament2023"
         (path "/42e733f2-c99f-4cc2-86e2-d5b5a803e3a0"
-          (reference "#PWR09") (unit 1)
+          (reference "#PWR08") (unit 1)
         )
       )
     )
@@ -3544,42 +3521,10 @@
     )
   )
 
-  (symbol (lib_id "Device:C_Small") (at 91.44 26.67 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid d118f918-119a-43c1-a409-e855e49cc52b)
-    (property "Reference" "C5" (at 93.7641 25.4642 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "0.01uF" (at 93.7641 27.8884 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 91.44 26.67 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 91.44 26.67 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Sim.Device" "C" (at 91.44 26.67 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Sim.Pins" "1=+ 2=-" (at 91.44 26.67 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 003e93e3-f192-4b9f-a10d-2141c75e3222))
-    (pin "2" (uuid 42a9af2c-ca72-4ca4-be41-2e2398120660))
-    (instances
-      (project "CodeStackOrnament2023"
-        (path "/42e733f2-c99f-4cc2-86e2-d5b5a803e3a0"
-          (reference "C5") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "power:GND") (at 215.9 109.22 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d86cb250-b49d-4c07-9acc-a47df2bcad84)
-    (property "Reference" "#PWR021" (at 215.9 115.57 0)
+    (property "Reference" "#PWR020" (at 215.9 115.57 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 215.9 113.3531 0)
@@ -3595,7 +3540,7 @@
     (instances
       (project "CodeStackOrnament2023"
         (path "/42e733f2-c99f-4cc2-86e2-d5b5a803e3a0"
-          (reference "#PWR021") (unit 1)
+          (reference "#PWR020") (unit 1)
         )
       )
     )
@@ -3604,7 +3549,7 @@
   (symbol (lib_id "power:GND") (at 229.87 110.49 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e02d8fa1-1d83-45d1-852d-6521c43eef3b)
-    (property "Reference" "#PWR023" (at 229.87 116.84 0)
+    (property "Reference" "#PWR022" (at 229.87 116.84 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 229.87 114.6231 0)
@@ -3620,7 +3565,7 @@
     (instances
       (project "CodeStackOrnament2023"
         (path "/42e733f2-c99f-4cc2-86e2-d5b5a803e3a0"
-          (reference "#PWR023") (unit 1)
+          (reference "#PWR022") (unit 1)
         )
       )
     )

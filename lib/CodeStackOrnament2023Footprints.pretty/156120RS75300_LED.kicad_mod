@@ -15,6 +15,8 @@
   )
   (fp_rect (start -2.38 -0.93) (end 2.38 0.93)
     (stroke (width 0.1) (type default)) (fill none) (layer "F.SilkS") (tstamp fed5e58e-3087-4a2c-b11e-932af4c0be18))
+  (fp_circle (center -2.68 0.004536) (end -2.59 0.104536)
+    (stroke (width 0.1) (type default)) (fill none) (layer "F.SilkS") (tstamp 3fd54573-ebc6-4026-bbbd-60741e74f0b6))
   (pad "" np_thru_hole circle (at 0 0) (size 2.1 2.1) (drill 2.1) (layers "F&B.Cu" "*.Mask") (tstamp e2c79fb4-7c44-4e39-b353-92f47893d376))
   (pad "1" smd rect (at -1.8 0) (size 1 1.6) (layers "F.Cu" "F.Paste" "F.Mask")
     (thermal_bridge_angle 45) (tstamp b178f6a8-5fa1-4ac0-9081-55c0e69d9a01))

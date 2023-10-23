@@ -45,10 +45,10 @@
     (stroke (width 0.127) (type solid)) (layer "F.Fab") (tstamp 870da0a6-a5e6-4d62-a6c6-cda98f36701d))
   (fp_line (start 27.495 5.85) (end 27.495 6.85)
     (stroke (width 0.127) (type solid)) (layer "F.Fab") (tstamp b1af0d04-f1ad-4efb-8242-260ac1cfd29e))
-  (pad "N" thru_hole circle (at 23.9 -6.35) (size 1.53 1.53) (drill 1.02) (layers "*.Cu" "*.Mask")
-    (solder_mask_margin 0.102) (tstamp e9c855a9-a39e-47c3-a96e-472379ab19a3))
-  (pad "P" thru_hole circle (at 23.9 6.35) (size 1.53 1.53) (drill 1.02) (layers "*.Cu" "*.Mask")
+  (pad "1" thru_hole circle (at 23.9 6.35) (size 1.53 1.53) (drill 1.02) (layers "*.Cu" "*.Mask")
     (solder_mask_margin 0.102) (tstamp 1bd1c04a-c5f5-4d3a-bf1d-04050af5f91c))
+  (pad "2" thru_hole circle (at 23.9 -6.35) (size 1.53 1.53) (drill 1.02) (layers "*.Cu" "*.Mask")
+    (solder_mask_margin 0.102) (tstamp e9c855a9-a39e-47c3-a96e-472379ab19a3))
   (model "${KIPRJMOD}/lib/2468.step"
     (offset (xyz -6.5 -1.5 10))
     (scale (xyz 1 1 1))
