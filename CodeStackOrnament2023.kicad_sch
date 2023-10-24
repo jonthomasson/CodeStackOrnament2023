@@ -3307,7 +3307,7 @@
     (property "Value" "R" (at 231.521 101.5421 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 231.14 105.41 0)
+    (property "Footprint" "CodeStackOrnament2023Footprints:SMD1206B050TF_FUSE" (at 231.14 105.41 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Datasheet" "~" (at 229.87 100.33 0)
