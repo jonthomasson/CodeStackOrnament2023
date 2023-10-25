@@ -2926,7 +2926,7 @@
     (property "Value" "74VHC4040FT" (at 143.1641 47.8099 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" (at 140.97 64.77 0)
+    (property "Footprint" "CodeStackOrnament2023Footprints:CD74HC4040M96_SOIC16" (at 140.97 64.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4020bms-24bms-40bms.pdf" (at 140.97 64.77 0)
