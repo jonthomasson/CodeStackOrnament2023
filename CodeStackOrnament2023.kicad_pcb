@@ -1347,7 +1347,7 @@
 
   (gr_circle (center 150.09 74.763659) (end 151.878206 75.900018)
     (stroke (width 0.1) (type default)) (fill none) (layer "Edge.Cuts") (tstamp 2ffa0bbc-030c-48f8-9627-a81b24536bdb))
-  (gr_circle (center 150.09 104.688605) (end 163.752618 136.282363)
+  (gr_circle (center 150.09 104.688605) (end 185.09 104.688605)
     (stroke (width 0.1) (type default)) (fill none) (layer "Edge.Cuts") (tstamp 647ff0a8-c2af-41d6-a410-962f9a4ebfa9))
   (gr_text "OFF" (at 160.8 129.3) (layer "F.SilkS") (tstamp b10a6f27-1e30-458f-b679-9da6053063dd)
     (effects (font (size 1 1) (thickness 0.15)) (justify left bottom))
