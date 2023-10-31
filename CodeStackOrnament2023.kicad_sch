@@ -3038,7 +3038,7 @@
     (property "Reference" "C3" (at 87.249 90.9518 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "1uF" (at 87.249 93.376 0)
+    (property "Value" "10uF" (at 87.249 93.376 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 85.09 92.71 0)
