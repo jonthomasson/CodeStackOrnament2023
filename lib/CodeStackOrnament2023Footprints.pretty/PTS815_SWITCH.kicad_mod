@@ -23,4 +23,9 @@
     (thermal_bridge_angle 45) (tstamp e576039c-800b-4b42-8196-fde8846df4c8))
   (pad "4" smd rect (at 4.5 2.15) (size 1 0.7) (layers "F.Cu" "F.Paste" "F.Mask")
     (thermal_bridge_angle 45) (tstamp bd3ec1f9-3d60-4aae-a161-c33bb7b71e5f))
+  (model "${KIPRJMOD}/lib/PTS810.stp"
+    (offset (xyz 2.3 -1 1.4))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
 )

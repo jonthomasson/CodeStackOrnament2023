@@ -3402,7 +3402,7 @@
     (property "Value" "RESET" (at 180.975 175.26 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 180.975 168.275 0)
+    (property "Footprint" "CodeStackOrnament2023Footprints:PTS815_SWITCH" (at 180.975 168.275 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 180.975 168.275 0)
