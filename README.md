@@ -1,5 +1,7 @@
 # CodeStack Team C 2023 Christmas Ornament Project
 
+![Ornament Picture](pics/schematics/3d_front.png)
+
 ## Overview
 
 Welcome to the CodeStack Team C Christmas Ornament project! This isn't just any holiday decoration; it's a geeky masterpiece designed by developers for developers. Embodying the spirit of CodeStack, this unique ornament is a playful blend of electronics and a bit of geek culture, perfect for those who appreciate the quirks of digital logic and binary systems.
