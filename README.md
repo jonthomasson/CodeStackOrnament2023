@@ -36,7 +36,7 @@ This ornament is a hands-on lesson in binary counting. The binary counter ranges
 
 As the counter advances, the corresponding LEDs light up. To find the current count, simply add the values of all illuminated LEDs. It's a delightful way to visualize how binary numbers work!
 
-![Ornament Picture](/pics/binary_counter.gif)
+![Ornament Picture](/pics/binary_counting.gif)
 ## A Festive Joke
 
 At first glance, it might just seem like an oddly blinking LED ornament. But in true CodeStack fashion, there's more than meets the eye. It's a playful demonstration of binary counting, making it not just a decoration, but a conversation piece about digital electronics and our geeky passions.
