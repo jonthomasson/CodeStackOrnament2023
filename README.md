@@ -4,16 +4,11 @@
 
 ## Overview
 
-Welcome to the CodeStack Team C Christmas Ornament project! This isn't just any holiday decoration; it's a geeky masterpiece designed by developers for developers. Embodying the spirit of CodeStack, this unique ornament is a playful blend of electronics and a bit of geek culture, perfect for those who appreciate the quirks of digital logic and binary systems.
+Welcome to the CodeStack Team C Christmas Ornament project! This isn't just any holiday decoration; it's a geeky masterpiece designed by developers for developers. Embodying the spirit of CodeStack, this unique ornament is a playful blend of electronics and a bit of geek culture, perfect for those who appreciate the quirks of digital logic and binary systems, which at its core are the systems which run our code!
 
 ### Circuit Description
 
-Our circuit is centered around the 555 timer IC, configured in astable mode with:
-
-- Two 12k resistors
-- A 10uF capacitor
-
-This configuration generates a 4Hz timing signal, which feeds into a CD74HC4040 binary counter. The output from this binary counter powers 12 LEDs arranged around the PCB in a binary sequence.
+Our circuit is centered around the 555 timer IC, configured in astable mode to generate a 4Hz timing signal, which feeds into a CD74HC4040 binary counter. The output from this binary counter powers 12 LEDs arranged around the PCB in a binary sequence.
 
 ![Ornament Picture](/pics/schematics/555_timer.PNG)
 
@@ -47,4 +42,4 @@ At first glance, it might just seem like an oddly blinking LED ornament. But in 
 
 ## Conclusion
 
-Building and displaying this Christmas ornament is a celebration of our geeky inclinations at CodeStack. It's a testament to our love for technology, coding, and a bit of festive fun. Enjoy this unique blend of holiday cheer and geek culture!
+Embrace your inner geek! This project aims to be a testament to our love for technology, coding, and a bit of festive fun. Enjoy this unique blend of holiday cheer and geek culture!
