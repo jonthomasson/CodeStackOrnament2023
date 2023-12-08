@@ -1,6 +1,6 @@
 # CodeStack Team C 2023 Christmas Ornament Project
 
-![Ornament Picture Front](/pics/schematics/3d_front.PNG)
+![Ornament Picture Front](/pics/schematics/3d_back.PNG)
 
 ## Overview
 
@@ -45,5 +45,5 @@ At first glance, it might just seem like an oddly blinking LED ornament. But in 
 
 Embrace your inner geek! This project aims to be a testament to our love for technology, coding, and a bit of festive fun. Enjoy this unique blend of holiday cheer and geek culture!
 
-![Ornament Picture Front](/pics/schematics/3d_back.PNG)
+![Ornament Picture Front](/pics/schematics/3d_front.PNG)
 ![Ornament Picture Front](/pics/schematics/pcb.PNG)
