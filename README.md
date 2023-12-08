@@ -1,6 +1,6 @@
 # CodeStack Team C 2023 Christmas Ornament Project
 
-![Ornament Picture](pics/schematics/3d_front.png)
+![Ornament Picture](/pics/schematics/3d_front.PNG)
 
 ## Overview
 
