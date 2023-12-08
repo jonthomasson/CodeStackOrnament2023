@@ -15,13 +15,19 @@ Our circuit is centered around the 555 timer IC, configured in astable mode with
 
 This configuration generates a 4Hz timing signal, which feeds into a CD74HC4040 binary counter. The output from this binary counter powers 12 LEDs arranged around the PCB in a binary sequence.
 
+![Ornament Picture](/pics/schematics/555_timer.PNG)
+
 #### Binary Counter and LED Display
 
 At the core of our ornament is the CD74HC4040 binary counter. Unlike traditional LED displays, this counter follows a binary sequence, lighting up LEDs in a pattern that reflects binary counting principles.
 
+![Ornament Picture](/pics/schematics/counter.PNG)
+
 #### Reset Circuit
 
 We've included a reset circuit using the TPS3840PH for a consistent experience. This setup ensures that the binary counter starts at zero every time the ornament is powered up. A manual reset button is also provided for added user control.
+
+![Ornament Picture](/pics/schematics/reset.PNG)
 
 ## Embracing the Geekiness
 
